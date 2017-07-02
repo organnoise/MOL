@@ -6921,28 +6921,29 @@ Cheaper than sparkfun, LED color is variable, and uses less current</text>
 <wire x1="264.16" y1="231.14" x2="264.16" y2="317.5" width="0.1524" layer="90"/>
 <text x="264.16" y="320.04" size="6.4516" layer="91">KNOB+LED+BUTTON
 (we need 12 of these)</text>
-<wire x1="530.86" y1="541.02" x2="828.04" y2="541.02" width="0.1524" layer="90"/>
-<wire x1="828.04" y1="541.02" x2="828.04" y2="464.82" width="0.1524" layer="90"/>
-<wire x1="828.04" y1="464.82" x2="530.86" y2="464.82" width="0.1524" layer="90"/>
-<wire x1="530.86" y1="464.82" x2="530.86" y2="541.02" width="0.1524" layer="90"/>
-<text x="533.4" y="543.56" size="6.4516" layer="91">MOTOR-DRIVER+JOYSTICK
+<wire x1="459.74" y1="541.02" x2="690.88" y2="541.02" width="0.1524" layer="90"/>
+<wire x1="690.88" y1="541.02" x2="690.88" y2="464.82" width="0.1524" layer="90"/>
+<wire x1="690.88" y1="464.82" x2="459.74" y2="464.82" width="0.1524" layer="90"/>
+<wire x1="459.74" y1="464.82" x2="459.74" y2="523.24" width="0.1524" layer="90"/>
+<text x="462.28" y="543.56" size="6.4516" layer="91">MOTOR-DRIVER+JOYSTICK
 (we need 1 of these)</text>
-<text x="241.3" y="703.58" size="1.778" layer="91">***CHANGE to the beefier STEP-UP from Amazon:
+<text x="546.1" y="403.86" size="1.778" layer="91">***CHANGE to the beefier STEP-UP from Amazon:
 
 https://www.amazon.com/gp/product/B01KFH32YI/ref=oh_aui_detailpage_o01_s00?ie=UTF8&amp;psc=1
 
 This is better than the smaller one we found because it has a built in voltage meter</text>
-<wire x1="185.42" y1="731.52" x2="185.42" y2="662.94" width="0.1524" layer="90"/>
-<wire x1="185.42" y1="662.94" x2="368.3" y2="662.94" width="0.1524" layer="90"/>
-<wire x1="368.3" y1="662.94" x2="368.3" y2="731.52" width="0.1524" layer="90"/>
-<wire x1="368.3" y1="731.52" x2="185.42" y2="731.52" width="0.1524" layer="90"/>
-<text x="190.5" y="734.06" size="6.4516" layer="91">POWER</text>
-<wire x1="187.96" y1="599.44" x2="302.26" y2="599.44" width="0.1524" layer="90"/>
-<wire x1="302.26" y1="599.44" x2="302.26" y2="538.48" width="0.1524" layer="90"/>
-<wire x1="302.26" y1="538.48" x2="254" y2="538.48" width="0.1524" layer="90"/>
-<wire x1="254" y1="538.48" x2="187.96" y2="538.48" width="0.1524" layer="90"/>
-<wire x1="187.96" y1="538.48" x2="187.96" y2="599.44" width="0.1524" layer="90"/>
-<text x="187.96" y="601.98" size="6.4516" layer="91">SERVO+JOYSTICK
+<wire x1="459.74" y1="523.24" x2="459.74" y2="541.02" width="0.1524" layer="90"/>
+<wire x1="538.48" y1="426.72" x2="538.48" y2="358.14" width="0.1524" layer="90"/>
+<wire x1="538.48" y1="358.14" x2="657.86" y2="358.14" width="0.1524" layer="90"/>
+<wire x1="657.86" y1="358.14" x2="657.86" y2="426.72" width="0.1524" layer="90"/>
+<wire x1="657.86" y1="426.72" x2="538.48" y2="426.72" width="0.1524" layer="90"/>
+<text x="543.56" y="429.26" size="6.4516" layer="91">POWER</text>
+<wire x1="101.6" y1="541.02" x2="215.9" y2="541.02" width="0.1524" layer="90"/>
+<wire x1="215.9" y1="541.02" x2="215.9" y2="523.24" width="0.1524" layer="90"/>
+<wire x1="215.9" y1="523.24" x2="215.9" y2="480.06" width="0.1524" layer="90"/>
+<wire x1="215.9" y1="480.06" x2="101.6" y2="480.06" width="0.1524" layer="90"/>
+<wire x1="101.6" y1="480.06" x2="101.6" y2="541.02" width="0.1524" layer="90"/>
+<text x="101.6" y="543.56" size="6.4516" layer="91">SERVO+JOYSTICK
 (we need 1 of these)</text>
 <wire x1="111.76" y1="320.04" x2="160.02" y2="320.04" width="0.1524" layer="90"/>
 <wire x1="160.02" y1="320.04" x2="213.36" y2="320.04" width="0.1524" layer="90"/>
@@ -6966,8 +6967,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="248.92" y1="487.68" x2="248.92" y2="406.4" width="0.1524" layer="90"/>
 <wire x1="243.84" y1="406.4" x2="241.3" y2="406.4" width="0.1524" layer="90"/>
 <wire x1="241.3" y1="406.4" x2="241.3" y2="487.68" width="0.1524" layer="90"/>
-<wire x1="250.444" y1="489.966" x2="254" y2="489.966" width="0.1524" layer="90"/>
-<wire x1="254" y1="489.966" x2="260.35" y2="489.966" width="0.1524" layer="90"/>
+<wire x1="250.444" y1="489.966" x2="260.35" y2="489.966" width="0.1524" layer="90"/>
 <wire x1="260.35" y1="489.966" x2="260.35" y2="436.88" width="0.1524" layer="90"/>
 <wire x1="260.35" y1="436.88" x2="250.444" y2="436.88" width="0.1524" layer="90"/>
 <wire x1="250.444" y1="436.88" x2="250.444" y2="489.966" width="0.1524" layer="90"/>
@@ -7038,19 +7038,22 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="248.92" y1="406.4" x2="243.84" y2="406.4" width="0.1524" layer="90"/>
 <wire x1="243.84" y1="406.4" x2="243.84" y2="353.06" width="0.1524" layer="90"/>
 <wire x1="243.84" y1="353.06" x2="160.02" y2="353.06" width="0.1524" layer="90"/>
-<wire x1="386.08" y1="411.48" x2="386.08" y2="505.46" width="0.1524" layer="90"/>
-<wire x1="266.7" y1="492.76" x2="266.7" y2="505.46" width="0.1524" layer="90"/>
-<wire x1="266.7" y1="505.46" x2="386.08" y2="505.46" width="0.1524" layer="90"/>
-<wire x1="386.08" y1="505.46" x2="530.86" y2="505.46" width="0.1524" layer="90"/>
+<wire x1="386.08" y1="411.48" x2="386.08" y2="523.24" width="0.1524" layer="90"/>
+<wire x1="266.7" y1="492.76" x2="266.7" y2="523.24" width="0.1524" layer="90"/>
+<wire x1="266.7" y1="523.24" x2="386.08" y2="523.24" width="0.1524" layer="90"/>
+<wire x1="386.08" y1="523.24" x2="459.74" y2="523.24" width="0.1524" layer="90"/>
 <wire x1="419.1" y1="426.72" x2="510.54" y2="426.72" width="0.1524" layer="90"/>
 <wire x1="510.54" y1="426.72" x2="510.54" y2="317.5" width="0.1524" layer="90"/>
 <wire x1="406.4" y1="431.8" x2="406.4" y2="317.5" width="0.1524" layer="90"/>
-<wire x1="254" y1="489.966" x2="254" y2="538.48" width="0.1524" layer="90"/>
 <wire x1="322.58" y1="317.5" x2="322.58" y2="353.06" width="0.1524" layer="90"/>
 <wire x1="160.02" y1="353.06" x2="160.02" y2="320.04" width="0.1524" layer="90"/>
 <wire x1="396.24" y1="396.24" x2="396.24" y2="210.82" width="0.1524" layer="90"/>
 <wire x1="396.24" y1="210.82" x2="160.02" y2="210.82" width="0.1524" layer="90"/>
 <wire x1="160.02" y1="210.82" x2="160.02" y2="243.84" width="0.1524" layer="90"/>
+<text x="417.322" y="464.82" size="6.4516" layer="91">I2C</text>
+<wire x1="215.9" y1="523.24" x2="256.54" y2="523.24" width="0.1524" layer="90"/>
+<wire x1="256.54" y1="523.24" x2="256.54" y2="490.22" width="0.1524" layer="90"/>
+<text x="299.72" y="500.38" size="6.4516" layer="91">TEENSY 3.6</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="325.12" y="449.58"/>
@@ -7065,31 +7068,31 @@ This is better than the smaller one we found because it has a built in voltage m
 <instance part="P+1" gate="VCC" x="302.26" y="274.32"/>
 <instance part="SUPPLY1" gate="G$1" x="421.64" y="452.12"/>
 <instance part="SUPPLY2" gate="G$1" x="302.26" y="243.84"/>
-<instance part="U$7" gate="G$1" x="673.1" y="510.54" rot="R180"/>
-<instance part="POWER-5V" gate="G$1" x="198.12" y="685.8"/>
-<instance part="SUPPLY5" gate="GND" x="205.74" y="678.18"/>
-<instance part="+5V" gate="1" x="205.74" y="698.5" smashed="yes">
-<attribute name="5V" x="207.264" y="696.976" size="1.778" layer="96"/>
+<instance part="U$7" gate="G$1" x="568.96" y="513.08" rot="R180"/>
+<instance part="POWER-5V" gate="G$1" x="551.18" y="381"/>
+<instance part="SUPPLY5" gate="GND" x="558.8" y="373.38"/>
+<instance part="+5V" gate="1" x="558.8" y="393.7" smashed="yes">
+<attribute name="5V" x="560.324" y="392.176" size="1.778" layer="96"/>
 </instance>
-<instance part="P+5" gate="1" x="698.5" y="523.24" smashed="yes">
-<attribute name="VMOT" x="700.024" y="521.716" size="1.778" layer="96" display="name"/>
+<instance part="P+5" gate="1" x="594.36" y="525.78" smashed="yes">
+<attribute name="VMOT" x="595.884" y="524.256" size="1.778" layer="96" display="name"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="695.96" y="485.14"/>
-<instance part="SUPPLY7" gate="GND" x="688.34" y="485.14"/>
-<instance part="MOTORS1" gate="G$1" x="713.74" y="510.54" rot="R180"/>
-<instance part="U1" gate="G$1" x="601.98" y="508"/>
-<instance part="SUPPLY3" gate="GND" x="589.28" y="480.06"/>
-<instance part="U2" gate="G$1" x="782.32" y="508"/>
-<instance part="SUPPLY4" gate="G$1" x="767.08" y="490.22"/>
-<instance part="J1" gate="J$1" x="233.68" y="579.12" rot="R180"/>
-<instance part="J_REG_5V_1" gate="J_REG_5V" x="251.46" y="688.34"/>
-<instance part="VMOT" gate="1" x="276.86" y="695.96" smashed="yes">
-<attribute name="VMOT" x="278.384" y="694.436" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="GND" x="591.82" y="487.68"/>
+<instance part="SUPPLY7" gate="GND" x="584.2" y="487.68"/>
+<instance part="MOTORS1" gate="G$1" x="609.6" y="513.08" rot="R180"/>
+<instance part="U1" gate="G$1" x="497.84" y="510.54"/>
+<instance part="SUPPLY3" gate="GND" x="485.14" y="482.6"/>
+<instance part="U2" gate="G$1" x="678.18" y="510.54"/>
+<instance part="SUPPLY4" gate="G$1" x="662.94" y="492.76"/>
+<instance part="J1" gate="J$1" x="147.32" y="520.7" rot="R180"/>
+<instance part="J_REG_5V_1" gate="J_REG_5V" x="604.52" y="383.54"/>
+<instance part="VMOT" gate="1" x="629.92" y="391.16" smashed="yes">
+<attribute name="VMOT" x="631.444" y="389.636" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="GND" x="251.46" y="670.56"/>
-<instance part="J2" gate="J$1" x="233.68" y="561.34" rot="R180"/>
-<instance part="U3" gate="G$1" x="284.48" y="568.96"/>
-<instance part="SUPPLY8" gate="G$1" x="269.24" y="551.18"/>
+<instance part="GND3" gate="GND" x="604.52" y="365.76"/>
+<instance part="J2" gate="J$1" x="147.32" y="502.92" rot="R180"/>
+<instance part="U3" gate="G$1" x="198.12" y="510.54"/>
+<instance part="SUPPLY8" gate="G$1" x="182.88" y="492.76"/>
 <instance part="IC1" gate="G$1" x="149.86" y="304.8"/>
 <instance part="+5V1" gate="1" x="187.96" y="304.8" smashed="yes">
 <attribute name="5V" x="189.484" y="303.276" size="1.778" layer="96"/>
@@ -7116,10 +7119,10 @@ This is better than the smaller one we found because it has a built in voltage m
 <instance part="+3V3" gate="G$1" x="508" y="307.34"/>
 <instance part="SUPPLY11" gate="GND" x="508" y="284.48"/>
 <instance part="+3V1" gate="G$1" x="233.68" y="502.92"/>
-<instance part="+3V2" gate="G$1" x="266.7" y="591.82"/>
-<instance part="+3V4" gate="G$1" x="614.68" y="530.86"/>
-<instance part="+3V5" gate="G$1" x="647.7" y="528.32"/>
-<instance part="+3V6" gate="G$1" x="764.54" y="530.86"/>
+<instance part="+3V2" gate="G$1" x="180.34" y="533.4"/>
+<instance part="+3V4" gate="G$1" x="510.54" y="533.4"/>
+<instance part="+3V5" gate="G$1" x="543.56" y="530.86"/>
+<instance part="+3V6" gate="G$1" x="660.4" y="533.4"/>
 </instances>
 <busses>
 </busses>
@@ -7154,27 +7157,27 @@ This is better than the smaller one we found because it has a built in voltage m
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <pinref part="U$7" gate="G$1" pin="GND"/>
-<wire x1="688.34" y1="500.38" x2="688.34" y2="487.68" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="502.92" x2="584.2" y2="490.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="589.28" y1="497.84" x2="589.28" y2="482.6" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="500.38" x2="485.14" y2="485.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J_REG_5V_1" gate="J_REG_5V" pin="GND"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
-<wire x1="251.46" y1="675.64" x2="251.46" y2="673.1" width="0.1524" layer="91"/>
+<wire x1="604.52" y1="370.84" x2="604.52" y2="368.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="1"/>
-<wire x1="226.06" y1="581.66" x2="220.98" y2="581.66" width="0.1524" layer="91"/>
-<label x="220.98" y="581.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="523.24" x2="134.62" y2="523.24" width="0.1524" layer="91"/>
+<label x="134.62" y="523.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J$1" pin="1"/>
-<wire x1="226.06" y1="563.88" x2="220.98" y2="563.88" width="0.1524" layer="91"/>
-<label x="220.98" y="563.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="505.46" x2="134.62" y2="505.46" width="0.1524" layer="91"/>
+<label x="134.62" y="505.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -7246,30 +7249,30 @@ This is better than the smaller one we found because it has a built in voltage m
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SEL-"/>
-<wire x1="767.08" y1="492.76" x2="767.08" y2="495.3" width="0.1524" layer="91"/>
-<wire x1="767.08" y1="495.3" x2="772.16" y2="495.3" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="495.3" x2="662.94" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="497.84" x2="668.02" y2="497.84" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="H-"/>
-<wire x1="767.08" y1="495.3" x2="767.08" y2="502.92" width="0.1524" layer="91"/>
-<wire x1="767.08" y1="502.92" x2="772.16" y2="502.92" width="0.1524" layer="91"/>
-<junction x="767.08" y="495.3"/>
+<wire x1="662.94" y1="497.84" x2="662.94" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="505.46" x2="668.02" y2="505.46" width="0.1524" layer="91"/>
+<junction x="662.94" y="497.84"/>
 <pinref part="U2" gate="G$1" pin="V-"/>
-<wire x1="767.08" y1="502.92" x2="767.08" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="767.08" y1="513.08" x2="772.16" y2="513.08" width="0.1524" layer="91"/>
-<junction x="767.08" y="502.92"/>
+<wire x1="662.94" y1="505.46" x2="662.94" y2="515.62" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="515.62" x2="668.02" y2="515.62" width="0.1524" layer="91"/>
+<junction x="662.94" y="505.46"/>
 <pinref part="SUPPLY4" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SEL-"/>
-<wire x1="269.24" y1="553.72" x2="269.24" y2="556.26" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="556.26" x2="274.32" y2="556.26" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="495.3" x2="182.88" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="497.84" x2="187.96" y2="497.84" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="H-"/>
-<wire x1="269.24" y1="556.26" x2="269.24" y2="563.88" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="563.88" x2="274.32" y2="563.88" width="0.1524" layer="91"/>
-<junction x="269.24" y="556.26"/>
+<wire x1="182.88" y1="497.84" x2="182.88" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="505.46" x2="187.96" y2="505.46" width="0.1524" layer="91"/>
+<junction x="182.88" y="497.84"/>
 <pinref part="U3" gate="G$1" pin="V-"/>
-<wire x1="269.24" y1="563.88" x2="269.24" y2="574.04" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="574.04" x2="274.32" y2="574.04" width="0.1524" layer="91"/>
-<junction x="269.24" y="563.88"/>
+<wire x1="182.88" y1="505.46" x2="182.88" y2="515.62" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="515.62" x2="187.96" y2="515.62" width="0.1524" layer="91"/>
+<junction x="182.88" y="505.46"/>
 <pinref part="SUPPLY8" gate="G$1" pin="AGND"/>
 </segment>
 </net>
@@ -7438,8 +7441,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="S_JOYH" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="H"/>
-<wire x1="274.32" y1="566.42" x2="261.62" y2="566.42" width="0.1524" layer="91"/>
-<label x="261.62" y="566.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="187.96" y1="508" x2="175.26" y2="508" width="0.1524" layer="91"/>
+<label x="175.26" y="508" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="20/A6/PWM/CS0-2/ALT-SCK1"/>
@@ -7451,13 +7454,13 @@ This is better than the smaller one we found because it has a built in voltage m
 <segment>
 <pinref part="P+5" gate="1" pin="V+"/>
 <pinref part="U$7" gate="G$1" pin="VMOT"/>
-<wire x1="698.5" y1="520.7" x2="698.5" y2="515.62" width="0.1524" layer="91"/>
-<wire x1="698.5" y1="515.62" x2="688.34" y2="515.62" width="0.1524" layer="91"/>
+<wire x1="594.36" y1="523.24" x2="594.36" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="594.36" y1="518.16" x2="584.2" y2="518.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J_REG_5V_1" gate="J_REG_5V" pin="VOUT"/>
-<wire x1="266.7" y1="688.34" x2="276.86" y2="688.34" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="688.34" x2="276.86" y2="693.42" width="0.1524" layer="91"/>
+<wire x1="619.76" y1="383.54" x2="629.92" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="383.54" x2="629.92" y2="388.62" width="0.1524" layer="91"/>
 <pinref part="VMOT" gate="1" pin="V+"/>
 </segment>
 </net>
@@ -7465,27 +7468,27 @@ This is better than the smaller one we found because it has a built in voltage m
 <segment>
 <pinref part="POWER-5V" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="200.66" y1="683.26" x2="205.74" y2="683.26" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="683.26" x2="205.74" y2="680.72" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="378.46" x2="558.8" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="558.8" y1="378.46" x2="558.8" y2="375.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="GND1"/>
-<wire x1="688.34" y1="518.16" x2="695.96" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="695.96" y1="518.16" x2="695.96" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="520.7" x2="591.82" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="520.7" x2="591.82" y2="495.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <pinref part="U$7" gate="G$1" pin="GND2"/>
-<wire x1="695.96" y1="492.76" x2="695.96" y2="487.68" width="0.1524" layer="91"/>
-<wire x1="655.32" y1="518.16" x2="650.24" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="518.16" x2="650.24" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="492.76" x2="695.96" y2="492.76" width="0.1524" layer="91"/>
-<junction x="695.96" y="492.76"/>
+<wire x1="591.82" y1="495.3" x2="591.82" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="520.7" x2="546.1" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="520.7" x2="546.1" y2="495.3" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="495.3" x2="591.82" y2="495.3" width="0.1524" layer="91"/>
+<junction x="591.82" y="495.3"/>
 </segment>
 </net>
 <net name="M_PWMB" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PWMB"/>
-<wire x1="655.32" y1="515.62" x2="645.16" y2="515.62" width="0.1524" layer="91"/>
-<label x="645.16" y="515.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="551.18" y1="518.16" x2="541.02" y2="518.16" width="0.1524" layer="91"/>
+<label x="541.02" y="518.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="22/A8/PWM/T"/>
@@ -7496,8 +7499,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="M_PWMA" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PWMA"/>
-<wire x1="655.32" y1="500.38" x2="645.16" y2="500.38" width="0.1524" layer="91"/>
-<label x="645.16" y="500.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="551.18" y1="502.92" x2="541.02" y2="502.92" width="0.1524" layer="91"/>
+<label x="541.02" y="502.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="21/A7/PWM/CS0-3/ALT-MOSI1/ALT-RX1"/>
@@ -7510,42 +7513,42 @@ This is better than the smaller one we found because it has a built in voltage m
 <segment>
 <pinref part="U$7" gate="G$1" pin="BO1"/>
 <pinref part="MOTORS1" gate="G$1" pin="1"/>
-<wire x1="688.34" y1="513.08" x2="708.66" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="515.62" x2="604.52" y2="515.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="BO2"/>
 <pinref part="MOTORS1" gate="G$1" pin="2"/>
-<wire x1="688.34" y1="510.54" x2="708.66" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="513.08" x2="604.52" y2="513.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="AO2"/>
 <pinref part="MOTORS1" gate="G$1" pin="3"/>
-<wire x1="688.34" y1="508" x2="708.66" y2="508" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="510.54" x2="604.52" y2="510.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="AO1"/>
 <pinref part="MOTORS1" gate="G$1" pin="4"/>
-<wire x1="688.34" y1="505.46" x2="708.66" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="508" x2="604.52" y2="508" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M_AIN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="2A"/>
-<wire x1="589.28" y1="502.92" x2="586.74" y2="502.92" width="0.1524" layer="91"/>
-<label x="579.12" y="502.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="586.74" y1="502.92" x2="579.12" y2="502.92" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="502.92" x2="586.74" y2="487.68" width="0.1524" layer="91"/>
-<junction x="586.74" y="502.92"/>
-<wire x1="586.74" y1="487.68" x2="622.3" y2="487.68" width="0.1524" layer="91"/>
-<wire x1="622.3" y1="487.68" x2="622.3" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="505.46" x2="482.6" y2="505.46" width="0.1524" layer="91"/>
+<label x="474.98" y="505.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="482.6" y1="505.46" x2="474.98" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="505.46" x2="482.6" y2="490.22" width="0.1524" layer="91"/>
+<junction x="482.6" y="505.46"/>
+<wire x1="482.6" y1="490.22" x2="518.16" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="490.22" x2="518.16" y2="508" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="AIN1"/>
-<wire x1="622.3" y1="505.46" x2="655.32" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="508" x2="551.18" y2="508" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="40"/>
@@ -7556,15 +7559,15 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="M_BIN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="1A"/>
-<wire x1="589.28" y1="510.54" x2="586.74" y2="510.54" width="0.1524" layer="91"/>
-<label x="579.12" y="510.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="586.74" y1="510.54" x2="579.12" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="510.54" x2="586.74" y2="523.24" width="0.1524" layer="91"/>
-<junction x="586.74" y="510.54"/>
-<wire x1="586.74" y1="523.24" x2="622.3" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="622.3" y1="523.24" x2="622.3" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="513.08" x2="482.6" y2="513.08" width="0.1524" layer="91"/>
+<label x="474.98" y="513.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="482.6" y1="513.08" x2="474.98" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="513.08" x2="482.6" y2="525.78" width="0.1524" layer="91"/>
+<junction x="482.6" y="513.08"/>
+<wire x1="482.6" y1="525.78" x2="518.16" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="525.78" x2="518.16" y2="515.62" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="BIN2"/>
-<wire x1="622.3" y1="513.08" x2="655.32" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="515.62" x2="551.18" y2="515.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="41"/>
@@ -7576,21 +7579,21 @@ This is better than the smaller one we found because it has a built in voltage m
 <segment>
 <pinref part="U1" gate="G$1" pin="1Y"/>
 <pinref part="U$7" gate="G$1" pin="BIN1"/>
-<wire x1="614.68" y1="510.54" x2="655.32" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="513.08" x2="551.18" y2="513.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="2Y"/>
 <pinref part="U$7" gate="G$1" pin="AIN2"/>
-<wire x1="614.68" y1="502.92" x2="655.32" y2="502.92" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="505.46" x2="551.18" y2="505.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M_JOYB" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SEL+"/>
-<wire x1="772.16" y1="497.84" x2="759.46" y2="497.84" width="0.1524" layer="91"/>
-<label x="759.46" y="497.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="668.02" y1="500.38" x2="655.32" y2="500.38" width="0.1524" layer="91"/>
+<label x="655.32" y="500.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="0/RX1/MOSI1/T"/>
@@ -7601,8 +7604,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="M_JOYH" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="H"/>
-<wire x1="772.16" y1="505.46" x2="759.46" y2="505.46" width="0.1524" layer="91"/>
-<label x="759.46" y="505.46" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="668.02" y1="508" x2="655.32" y2="508" width="0.1524" layer="91"/>
+<label x="655.32" y="508" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
@@ -7613,8 +7616,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="M_JOYV" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="V"/>
-<wire x1="772.16" y1="515.62" x2="759.46" y2="515.62" width="0.1524" layer="91"/>
-<label x="759.46" y="515.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="668.02" y1="518.16" x2="655.32" y2="518.16" width="0.1524" layer="91"/>
+<label x="655.32" y="518.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="17/A3/PWM/T/ALT-SDA0"/>
@@ -7661,21 +7664,21 @@ This is better than the smaller one we found because it has a built in voltage m
 <segment>
 <pinref part="POWER-5V" gate="G$1" pin="PWR"/>
 <pinref part="+5V" gate="1" pin="V+"/>
-<wire x1="200.66" y1="688.34" x2="205.74" y2="688.34" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="688.34" x2="205.74" y2="695.96" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="383.54" x2="558.8" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="558.8" y1="383.54" x2="558.8" y2="391.16" width="0.1524" layer="91"/>
 <pinref part="J_REG_5V_1" gate="J_REG_5V" pin="VIN"/>
-<wire x1="205.74" y1="688.34" x2="236.22" y2="688.34" width="0.1524" layer="91"/>
-<junction x="205.74" y="688.34"/>
+<wire x1="558.8" y1="383.54" x2="589.28" y2="383.54" width="0.1524" layer="91"/>
+<junction x="558.8" y="383.54"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="2"/>
-<wire x1="226.06" y1="579.12" x2="220.98" y2="579.12" width="0.1524" layer="91"/>
-<label x="220.98" y="579.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="520.7" x2="134.62" y2="520.7" width="0.1524" layer="91"/>
+<label x="134.62" y="520.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J$1" pin="2"/>
-<wire x1="226.06" y1="561.34" x2="220.98" y2="561.34" width="0.1524" layer="91"/>
-<label x="220.98" y="561.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="502.92" x2="134.62" y2="502.92" width="0.1524" layer="91"/>
+<label x="134.62" y="502.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="CD+"/>
@@ -7693,13 +7696,13 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="S1" class="0">
 <segment>
 <pinref part="J1" gate="J$1" pin="3"/>
-<wire x1="226.06" y1="576.58" x2="220.98" y2="576.58" width="0.1524" layer="91"/>
-<label x="220.98" y="576.58" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="518.16" x2="134.62" y2="518.16" width="0.1524" layer="91"/>
+<label x="134.62" y="518.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J$1" pin="3"/>
-<wire x1="226.06" y1="558.8" x2="220.98" y2="558.8" width="0.1524" layer="91"/>
-<label x="220.98" y="558.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="500.38" x2="134.62" y2="500.38" width="0.1524" layer="91"/>
+<label x="134.62" y="500.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
@@ -8014,8 +8017,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="S_JOYV" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="V"/>
-<wire x1="274.32" y1="576.58" x2="261.62" y2="576.58" width="0.1524" layer="91"/>
-<label x="261.62" y="576.58" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="187.96" y1="518.16" x2="175.26" y2="518.16" width="0.1524" layer="91"/>
+<label x="175.26" y="518.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
@@ -8026,8 +8029,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <net name="S_JOYB" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SEL+"/>
-<wire x1="274.32" y1="558.8" x2="261.62" y2="558.8" width="0.1524" layer="91"/>
-<label x="261.62" y="558.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="187.96" y1="500.38" x2="175.26" y2="500.38" width="0.1524" layer="91"/>
+<label x="175.26" y="500.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="1/TX1/MISO1/T"/>
@@ -8143,39 +8146,39 @@ This is better than the smaller one we found because it has a built in voltage m
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="V+"/>
-<wire x1="274.32" y1="579.12" x2="266.7" y2="579.12" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="579.12" x2="266.7" y2="589.28" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="520.7" x2="180.34" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="520.7" x2="180.34" y2="530.86" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="H+"/>
-<wire x1="266.7" y1="579.12" x2="266.7" y2="568.96" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="568.96" x2="274.32" y2="568.96" width="0.1524" layer="91"/>
-<junction x="266.7" y="579.12"/>
+<wire x1="180.34" y1="520.7" x2="180.34" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="510.54" x2="187.96" y2="510.54" width="0.1524" layer="91"/>
+<junction x="180.34" y="520.7"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="614.68" y1="515.62" x2="614.68" y2="528.32" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="518.16" x2="510.54" y2="530.86" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="STBY"/>
-<wire x1="655.32" y1="508" x2="647.7" y2="508" width="0.1524" layer="91"/>
-<wire x1="647.7" y1="508" x2="647.7" y2="523.24" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="510.54" x2="543.56" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="510.54" x2="543.56" y2="525.78" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="VCC"/>
-<wire x1="647.7" y1="523.24" x2="647.7" y2="525.78" width="0.1524" layer="91"/>
-<wire x1="688.34" y1="502.92" x2="693.42" y2="502.92" width="0.1524" layer="91"/>
-<wire x1="693.42" y1="502.92" x2="693.42" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="693.42" y1="523.24" x2="647.7" y2="523.24" width="0.1524" layer="91"/>
-<junction x="647.7" y="523.24"/>
+<wire x1="543.56" y1="525.78" x2="543.56" y2="528.32" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="505.46" x2="589.28" y2="505.46" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="505.46" x2="589.28" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="525.78" x2="543.56" y2="525.78" width="0.1524" layer="91"/>
+<junction x="543.56" y="525.78"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V+"/>
-<wire x1="772.16" y1="518.16" x2="764.54" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="764.54" y1="518.16" x2="764.54" y2="528.32" width="0.1524" layer="91"/>
+<wire x1="668.02" y1="520.7" x2="660.4" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="660.4" y1="520.7" x2="660.4" y2="530.86" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="H+"/>
-<wire x1="764.54" y1="518.16" x2="764.54" y2="508" width="0.1524" layer="91"/>
-<wire x1="764.54" y1="508" x2="772.16" y2="508" width="0.1524" layer="91"/>
-<junction x="764.54" y="518.16"/>
+<wire x1="660.4" y1="520.7" x2="660.4" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="660.4" y1="510.54" x2="668.02" y2="510.54" width="0.1524" layer="91"/>
+<junction x="660.4" y="520.7"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 </net>

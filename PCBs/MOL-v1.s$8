@@ -4670,6 +4670,41 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2" urn="urn:adsk.eagle:library:372">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="AGND" library_version="1">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AGND" prefix="SUPPLY" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4685,10 +4720,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="R0603"/>
 <part name="BUTTON1" library="switch-tact" deviceset="DTS-6" device=""/>
 <part name="KNOB1" library="CMU-ArtFab" deviceset="POT" device=""/>
-<part name="GND" library="supply2" deviceset="GND" device=""/>
 <part name="GND1" library="supply2" deviceset="GND" device=""/>
 <part name="GND2" library="supply2" deviceset="GND" device=""/>
 <part name="P+1" library="microbuilder" deviceset="VCC" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4701,6 +4737,11 @@ look at:
 Digikey: 563-1933-ND
 
 Cheaper than sparkfun, LED color is variable, and uses less current</text>
+<wire x1="121.92" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="90"/>
+<wire x1="223.52" y1="116.84" x2="223.52" y2="30.48" width="0.1524" layer="90"/>
+<wire x1="223.52" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="90"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="116.84" width="0.1524" layer="90"/>
+<text x="137.16" y="119.38" size="1.016" layer="91">***we need 16 of these</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="50.8" y="68.58"/>
@@ -4710,10 +4751,11 @@ Cheaper than sparkfun, LED color is variable, and uses less current</text>
 <attribute name="NAME" x="154.94" y="90.17" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="KNOB1" gate="G$1" x="160.02" y="58.42" rot="R180"/>
-<instance part="GND" gate="GND" x="160.02" y="43.18"/>
 <instance part="GND1" gate="GND" x="-10.16" y="104.14"/>
 <instance part="GND2" gate="GND" x="160.02" y="83.82"/>
 <instance part="P+1" gate="VCC" x="160.02" y="73.66"/>
+<instance part="SUPPLY1" gate="G$1" x="104.14" y="71.12"/>
+<instance part="SUPPLY2" gate="G$1" x="160.02" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -4745,11 +4787,6 @@ Cheaper than sparkfun, LED color is variable, and uses less current</text>
 <wire x1="160.02" y1="109.22" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="GND" pin="GND"/>
 </segment>
-<segment>
-<pinref part="GND" gate="GND" pin="GND"/>
-<wire x1="160.02" y1="53.34" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="KNOB1" gate="G$1" pin="OUT"/>
-</segment>
 </net>
 <net name="B1" class="0">
 <segment>
@@ -4766,8 +4803,17 @@ Cheaper than sparkfun, LED color is variable, and uses less current</text>
 <net name="AGND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
-<wire x1="86.36" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <label x="106.68" y="76.2" size="1.016" layer="95" xref="yes"/>
+<pinref part="SUPPLY1" gate="G$1" pin="AGND"/>
+<wire x1="104.14" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="76.2" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<junction x="104.14" y="76.2"/>
+</segment>
+<segment>
+<wire x1="160.02" y1="53.34" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="KNOB1" gate="G$1" pin="OUT"/>
+<pinref part="SUPPLY2" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="LED1" class="0">
