@@ -328,17 +328,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="ALPS_POT">
-<wire x1="6.73" y1="4.93" x2="6.73" y2="-4.93" width="0.2032" layer="51"/>
-<wire x1="6.73" y1="-4.93" x2="-5.346" y2="-4.93" width="0.2032" layer="51"/>
-<wire x1="-5.346" y1="-4.93" x2="-5.346" y2="4.93" width="0.2032" layer="51"/>
-<wire x1="-5.346" y1="4.93" x2="6.73" y2="4.93" width="0.2032" layer="51"/>
-<pad name="P$1" x="7" y="-2.5" drill="1" diameter="1.8796" shape="square"/>
-<pad name="P$2" x="7" y="0" drill="1" diameter="1.8796" shape="square"/>
-<pad name="P$3" x="7" y="2.5" drill="1" diameter="1.8796" shape="square"/>
-<pad name="P$4" x="0" y="-4.4" drill="2" shape="octagon"/>
-<pad name="P$5" x="0" y="4.4" drill="2" shape="octagon"/>
-</package>
 <package name="POLOLU_TB6612FNG">
 <pad name="GND" x="-7.62" y="8.89" drill="0.8" diameter="1.778"/>
 <pad name="VCC" x="-7.62" y="6.35" drill="0.8" diameter="1.778"/>
@@ -457,36 +446,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="switch-tact">
-<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
-&lt;p&gt;&lt;ul&gt;
-&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
-&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
-&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
-&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
-<packages>
-<package name="DTS-6">
-<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.2032" layer="51"/>
-<wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.2032" layer="51"/>
-<wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.2032" layer="51"/>
-<wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="3.1" x2="-1.5" y2="3.1" width="0.2032" layer="21"/>
-<wire x1="3.1" y1="-1" x2="3.1" y2="1" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-3.1" x2="-1.5" y2="-3.1" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-1" x2="-3.1" y2="1" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
-<pad name="1" x="-3.25" y="2.25" drill="1" shape="long"/>
-<pad name="2" x="3.25" y="2.25" drill="1" shape="long"/>
-<pad name="3" x="-3.25" y="-2.25" drill="1" shape="long"/>
-<pad name="4" x="3.25" y="-2.25" drill="1" shape="long"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -723,6 +682,24 @@ ULN and UDN Series&lt;p&gt;
 <circle x="2.54" y="-1.27" radius="0.127" width="0.127" layer="21"/>
 <circle x="2.54" y="1.27" radius="0.127" width="0.127" layer="21"/>
 </package>
+<package name="TRIM-PCB-9MM">
+<pad name="2" x="0" y="-7.500009375" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-2.54" y="-7.500009375" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-7.500009375" drill="0.9" diameter="1.778"/>
+<wire x1="-4.7625" y1="-6.223" x2="4.7625" y2="-6.223" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="4.826" x2="-4.7625" y2="4.826" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.032" width="0.127" layer="21"/>
+<text x="-8.89" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="5" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
+<pad name="M2" x="4.799990625" y="0" drill="2.8448" diameter="4"/>
+<wire x1="-4.7625" y1="2.54" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="2.54" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-4.7625" y1="-6.223" x2="-4.7625" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="-6.223" x2="4.7625" y2="-2.54" width="0.127" layer="21"/>
+<pad name="6" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
+<pad name="M1" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -918,10 +895,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="Teensy_3_6" package="T36" value="TEENSY3_6--ALLPINS" x="19.05" y="22.86" rot="MR180"/>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" value="" x="3.81" y="53.34"/>
 <element name="R1" library="CMU-ArtFab" package="R0603" value="" x="3.81" y="48.26"/>
-<element name="BUTTON1" library="switch-tact" package="DTS-6" value="DTS-6" x="11.43" y="53.34" rot="R90"/>
-<element name="KNOB1" library="CMU-ArtFab" package="ALPS_POT" value="" x="8.89" y="68.58" rot="R270"/>
 <element name="U$7" library="CMU-ArtFab" package="POLOLU_TB6612FNG" value="POLOLU_TB6612FNG" x="1.27" y="-86.36"/>
 <element name="POWER-5V" library="adafruit" package="DCJACK_2MM_PTH" value="" x="6.35" y="-55.88"/>
 <element name="MOTORS1" library="CMU-ArtFab" package="SPRINGTERMINAL-2.54MM-4" value="" x="27.94" y="-80.01"/>
@@ -943,13 +917,13 @@ design rules under a new name.</description>
 <element name="R16" library="CMU-ArtFab" package="R0603" value="" x="-66.04" y="-367.03"/>
 <element name="I2C-0" library="CMU-ArtFab" package="1X04_LOCK" value="" x="-58.42" y="-378.46"/>
 <element name="S1" library="Daniel" package="TR2-SWITCH-MOMENTARY-LED" value="SW-LEDPTH" x="24.13" y="67.31"/>
-<element name="S2" library="Daniel" package="TR2-SWITCH-MOMENTARY-LED" value="SW-LEDPTH" x="-57.15" y="-422.91"/>
+<element name="TM1" library="Daniel" package="TRIM-PCB-9MM" value="" x="-43.18" y="-408.94"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="R1" pad="1"/>
-<contactref element="LED1" pad="A"/>
-<wire x1="2.54" y1="53.34" x2="2.96" y2="48.26" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="A"/>
+<wire x1="2.96" y1="48.26" x2="24.13" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="G4"/>
@@ -959,8 +933,6 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="G0"/>
 <contactref element="U$1" pad="G3"/>
 <contactref element="U$1" pad="G6"/>
-<contactref element="BUTTON1" pad="1"/>
-<contactref element="LED1" pad="K"/>
 <contactref element="U1" pad="2"/>
 <contactref element="U$7" pad="GND"/>
 <contactref element="J_REG_5V_1" pad="GND"/>
@@ -973,6 +945,8 @@ design rules under a new name.</description>
 <contactref element="LED15" pad="K"/>
 <contactref element="LED16" pad="K"/>
 <contactref element="I2C-0" pad="2"/>
+<contactref element="S1" pad="1"/>
+<contactref element="S1" pad="C"/>
 <wire x1="-58.42" y1="-203.073" x2="-57.15" y2="-184.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.42" y1="-162.433" x2="-57.15" y2="-184.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="-269.24" x2="-58.42" y2="-203.073" width="0" layer="19" extent="1-1"/>
@@ -991,41 +965,38 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="24.765" x2="16.51" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="24.765" x2="17.78" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="1.27" y1="27.94" x2="15.24" y2="24.765" width="0" layer="19" extent="1-1"/>
-<wire x1="9.18" y1="50.09" x2="1.27" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="53.34" x2="9.18" y2="50.09" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="64.77" x2="17.78" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="64.77" x2="24.13" y2="64.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1">
-<contactref element="BUTTON1" pad="3"/>
 <contactref element="U$1" pad="11"/>
-<wire x1="13.68" y1="50.09" x2="31.75" y2="27.94" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="3"/>
+<wire x1="31.75" y1="27.94" x2="21.59" y2="64.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGND">
 <contactref element="U$1" pad="AGND"/>
-<contactref element="KNOB1" pad="P$1"/>
 <contactref element="U2" pad="B2A"/>
 <contactref element="U2" pad="H3"/>
 <contactref element="U2" pad="V3"/>
 <contactref element="U3" pad="B2A"/>
 <contactref element="U3" pad="H3"/>
 <contactref element="U3" pad="V3"/>
+<contactref element="TM1" pad="3"/>
+<wire x1="-45.72" y1="-245.11" x2="-40.64" y2="-416.440009375" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="-237.49" x2="-45.72" y2="-245.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.435" y1="-227.33" x2="-58.42" y2="-237.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.72" y1="-143.51" x2="-51.435" y2="-227.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="-135.89" x2="-45.72" y2="-143.51" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.435" y1="-125.73" x2="-58.42" y2="-135.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.72" y1="-143.51" x2="-58.42" y2="-135.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-51.435" y1="-227.33" x2="-45.72" y2="-143.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.42" y1="-237.49" x2="-51.435" y2="-227.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.72" y1="-245.11" x2="-58.42" y2="-237.49" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="12.7" x2="-51.435" y2="-125.73" width="0" layer="19" extent="1-1"/>
-<wire x1="6.39" y1="61.58" x2="3.81" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L1">
 <contactref element="IC1" pad="1"/>
 <contactref element="U$1" pad="2"/>
 <wire x1="8.89" y1="27.94" x2="-60.96" y2="-269.24" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VCC">
-<contactref element="KNOB1" pad="P$3"/>
-</signal>
 <signal name="KNOB1">
-<contactref element="KNOB1" pad="P$2"/>
+<contactref element="TM1" pad="2"/>
 </signal>
 <signal name="B2">
 <contactref element="U$1" pad="12"/>
@@ -1417,6 +1388,9 @@ design rules under a new name.</description>
 <wire x1="46.99" y1="22.86" x2="36.83" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="17.78" x2="46.99" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.42" y1="-378.333" x2="-50.8" y2="-245.11" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="TM1" pad="1"/>
 </signal>
 </signals>
 </board>
