@@ -5324,8 +5324,6 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="4.7625" y1="2.54" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
 <wire x1="-4.7625" y1="-6.223" x2="-4.7625" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="4.7625" y1="-6.223" x2="4.7625" y2="-2.54" width="0.127" layer="21"/>
-<pad name="6" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
-<pad name="M1" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
 </package>
 </packages>
 <symbols>
@@ -5902,11 +5900,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="2" name="Power" width="0.508" drill="0">
-<clearance class="2" value="0.1524"/>
+<class number="2" name="Power" width="0.381" drill="0">
+<clearance class="2" value="0.2794"/>
 </class>
-<class number="3" name="Analog Sig" width="0.508" drill="0">
-<clearance class="3" value="0.1524"/>
+<class number="3" name="Analog Sig" width="0.381" drill="0">
+<clearance class="3" value="0.2794"/>
 </class>
 </classes>
 <parts>
